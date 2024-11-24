@@ -37,6 +37,11 @@
         format = "via [$symbol$name \\($state\\)]($style) ";
         symbol = "  ";
       };
+      package = {
+        format = "is [$symbol$version]($style) ";
+        style = "bold blue";
+        symbol = "󰆧 ";
+      };
     };
   };
 }
