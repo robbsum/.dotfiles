@@ -18,6 +18,8 @@ in {
         font-bold-italic = "${font}:size=${size}:style=Bold,Italic";
         line-height = 19;
         underline-offset = 19;
+
+        pad = "6x0";
       };
     };
   };
