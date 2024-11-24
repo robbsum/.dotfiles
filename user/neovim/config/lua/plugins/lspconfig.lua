@@ -27,5 +27,8 @@ return {
             -- Setup server
             require("lspconfig")[server_name].setup(server)
         end
+
+        -- Diagnostic config
+        vim.diagnostic.config({severity_sort = true})
     end
 }
