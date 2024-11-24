@@ -12,3 +12,5 @@ vim.opt.smartindent = true
 -- Undo
 vim.opt.undofile = true
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+
+vim.opt.signcolumn = "yes"
