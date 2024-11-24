@@ -91,6 +91,10 @@
         # Scroll through workspaces with $mod + , / .
         "$mod, Period, workspace, e+1"
         "$mod, Comma, workspace, e-1"
+
+        # Control volume level
+        "$mod, N, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%-"
+        "$mod, M, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"
       ];
     };
   };
