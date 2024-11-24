@@ -95,6 +95,12 @@
         # Control volume level
         "$mod, N, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%-"
         "$mod, M, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"
+
+        # Switch focus with $mod + H / J / K / L
+        "$mod, H, movefocus, l"
+        "$mod, J, movefocus, d"
+        "$mod, K, movefocus, u"
+        "$mod, L, movefocus, r"
       ];
     };
   };
