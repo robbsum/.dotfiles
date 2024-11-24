@@ -1,4 +1,8 @@
-{config, ...}: {
+{
+  config,
+  pkgs,
+  ...
+}: {
   # Configure Neovim
   programs.neovim = {
     enable = true;
@@ -13,4 +17,9 @@
     source = ./config;
     recursive = true;
   };
+
+  # Additional packages
+  home.packages = with pkgs; [
+    ripgrep
+  ];
 }
