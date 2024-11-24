@@ -1,5 +1,6 @@
 return {
     "shaunsingh/nord.nvim",
+    priority = 1000,
     config = function()
         -- Nord config
         vim.g.nord_bold = false
