@@ -8,6 +8,7 @@
     ./hardware
     ./hyprland
     ./sddm
+    ./android.nix
     ./bash.nix
     ./bootloader.nix
     ./localization.nix
