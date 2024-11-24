@@ -1,5 +1,13 @@
 return {
     "NeogitOrg/neogit",
     dependencies = {"sindrets/diffview.nvim"},
-    opts = {}
+    opts = {},
+    keys = {
+        {
+            "<Up>",
+            function() require("neogit").open() end,
+            mode = "n",
+            desc = "Open Neogit"
+        }
+    }
 }
