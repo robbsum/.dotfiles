@@ -33,6 +33,10 @@
         untracked = "[ $count](bold yellow) ";
         conflicted = "[ $count](bold red) ";
       };
+      nix_shell = {
+        format = "via [$symbol$name \\($state\\)]($style) ";
+        symbol = "  ";
+      };
     };
   };
 }
