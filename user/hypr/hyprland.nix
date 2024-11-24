@@ -107,6 +107,12 @@
         "$modShift, J, movewindow, d"
         "$modShift, K, movewindow, u"
         "$modShift, L, movewindow, r"
+
+        # Resize active window with $mod + arrow key
+        "$mod, Left, resizeactive, -30 0"
+        "$mod, Right, resizeactive, 30 0"
+        "$mod, Up, resizeactive, 0 -30"
+        "$mod, Down, resizeactive, 0 30"
       ];
     };
   };
