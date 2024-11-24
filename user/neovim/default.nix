@@ -20,6 +20,7 @@
 
   # Additional packages
   home.packages = with pkgs; [
+    gcc
     ripgrep
   ];
 }
